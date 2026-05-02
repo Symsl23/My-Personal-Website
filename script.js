@@ -123,7 +123,7 @@ function closeProjectPopup() {
 }
 
 /*Send Message using EmailJS*/
-document.getElementById('contact-form').addEventListener('submit', function(event) {
+/*document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault(); // prevent reload
 
     emailjs.sendForm('service_80x28uh', 'template_s10yalb', this)
@@ -132,4 +132,4 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     }, function(error) {
         alert('Failed to send email: ' + JSON.stringify(error));
     });
-});
+});*/
